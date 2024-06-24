@@ -31,11 +31,11 @@ module.exports = {
       .setThumbnail(client.user.displayAvatarURL())
                 .setColor(client.embedColor)
                 .setFooter({ text: `Requested by ` + message.author.username , iconURL: message.author.displayAvatarURL({ dynamic: true})})
-    .setTitle("**__Hey! I'm a CodeX__**")
+                .setTitle(`**__Hey! I'm ${client.user.username}__**`)
     .setDescription(`A Very Good Moderation With Cool Features`)
     .addFields([
-            { name: '**__Thanks For Pinging__**', value: `<a:Green_Dot:1143870972844326963> Browse my commands by using \`${prefix}help\`
-<a:Green_Dot:1143870972844326963> Join [Community](https://discord.gg/codersplanet) to get updates related to CodeX.`, inline: true },
+            { name: '**__Thanks For Pinging__**', value: `<a:x_dot:1247589958600888332> Browse my commands by using \`${prefix}help\`
+<a:x_dot:1247589958600888332> Join [Community](https://discord.gg/codersplanet) to get updates related to CodeX.`, inline: true },
           
       ]);
       
